@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './SideMenu.scss'
 

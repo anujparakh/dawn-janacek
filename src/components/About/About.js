@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './About.scss'
 import aboutPhoto from '../../res/img/about_photo.jpg'
 import * as TextConstants from '../../res/constants/text'

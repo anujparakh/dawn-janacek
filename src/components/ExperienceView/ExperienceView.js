@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './ExperienceView.scss'
 
 export default class ProjectView extends React.Component {

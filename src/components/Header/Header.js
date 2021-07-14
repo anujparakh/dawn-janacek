@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './Header.scss'
 import './Hamburger.scss'
@@ -59,13 +59,13 @@ export default class Header extends React.Component {
                 duration={500}
                 className='navbar__item'
             >About</Link>
-            <Link to="projects"
+            {/* <Link to="projects"
                 spy={true}
                 smooth={true}
                 offset={-60}
                 duration={500}
                 className='navbar__item'
-            >Projects</Link>
+            >Projects</Link> */}
             <Link to="experience"
                 spy={true}
                 smooth={true}

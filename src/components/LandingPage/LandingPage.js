@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './LandingPage.scss'
 import * as TextConstants from '../../res/constants/text'
-import Typist from 'react-typist'
+import TypistCycle from '../TypistCycle/typeCycle';
 
 export default class LandingPage extends React.Component {
     constructor(props) {
@@ -29,19 +29,7 @@ export default class LandingPage extends React.Component {
     }
 
     getTypingAnimatedComponent = () => {
-        //     const typedDivs = []
-        //     for(const text of TextConstants.SECONDARY_HEADINGS)
-        //     {
-        //         typedDivs.push(
-        //             <div>
-        //                 <div> {text}</div>
-        //                 <Typing.Delay ms={500}/>
-        //                 <Typing.Backspace count={text.length + 1} />
-        //             </div>)
-        //     }
-        //     typedDivs.push(<Typing.Reset count={1}/>)
 
-        //     return <Typing className="secondheading" loop={false} cursorClassName="text-white" speed={50}>{typedDivs}</Typing>
         return <div></div>
     }
 
@@ -50,6 +38,12 @@ export default class LandingPage extends React.Component {
 
             <p className="mainheading">{TextConstants.MAIN_HEADING}</p>
             {/* {this.getTypingAnimatedComponent()} */}
+            <TypistCycle
+                content={TextConstants.SECONDARY_HEADINGS}
+                numberOfCycles={-1} // loop indefinitely
+                segmentDelay={0.8} // stop for 0.8s at end line
+                className="secondheading"
+            />
             <div className="links-holder">
                 <a href="https://www.github.com/anujparakh" target="_blank" className="fa fa-github"></a>
                 <a href="https://www.linkedin.com/in/anuj-parakh" target="_blank" className="fa fa-linkedin-square"></a>

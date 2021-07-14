@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ExperienceView from '../ExperienceView/ExperienceView'
 import './Experience.scss'
 import * as TextConstants from '../../res/constants/text'

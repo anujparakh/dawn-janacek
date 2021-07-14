@@ -4,7 +4,6 @@ import Header from './components/Header/Header'
 import LandingPage from './components/LandingPage/LandingPage'
 import Experience from './components/Experience/Experience'
 import Footer from './components/Footer/Footer'
-import { Link, animateScroll as scroll } from "react-scroll";
 
 import './App.css';
 
