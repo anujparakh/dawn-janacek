@@ -1,0 +1,96 @@
+@import 'res/styles/colors';
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $background-color-footer;
+}
+
+code
+{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.left-bar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0; // temporarily
+}
+
+.heading
+{
+    color: $big-heading-color;
+    font-family: Lora;
+
+    font-size: 5em;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+@media(max-width: 700px)
+{
+    .heading
+    {
+        color: $big-heading-color;
+        font-size: 2.7em;
+        letter-spacing: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .left-bar
+    {
+        opacity: 0;
+    }
+}
+
+.smallscreen-heading
+{
+    color: $big-heading-color;
+    font-size: 2.7em;
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.subheading
+{
+    color: $big-heading-color;
+    font-size: 1em;
+}
+
+.smallscreen-subheading
+{
+    color: $sub-heading-color;
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.smallscreen-subheading a
+{
+    color: $link-color;
+}
+
+.subheading a
+{
+    color: $link-color;
+}
+
+.text
+{
+    color: $body-text-color;
+    font-size: 1.2em;
+}

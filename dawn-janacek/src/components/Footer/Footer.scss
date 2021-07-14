@@ -1,0 +1,67 @@
+@import 'res/styles/colors';
+
+.footer {
+    background-color: $background-color-footer;
+    position: relative;
+    font-weight: 300;
+}
+
+#thinupperline {
+    width: 60%;
+    margin: 30px auto;
+    height: 0.5px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+#thinlowerline {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 0.5px;
+    border-top: 1px solid rgba(255,255,255,.25);
+    padding-bottom: 100px;
+}
+
+.contact-holder {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.contact-holder p{
+    color: $link-color;
+    font-size: 1.8em;
+    margin-right: 15px;
+    margin: 20px;
+}
+
+.contact-holder a{
+    color: $body-text-color;
+    font-size: 1.5em;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-holder a:hover {
+    color: $hover-color;
+}
+
+@media (max-width: 700px) {
+    .contact-holder {
+        width: 80%;
+    }
+
+    #thinupperline {
+        width: 80%;
+    }
+
+    #thinlowerline {
+        width: 80%;
+    }
+}

@@ -1,0 +1,38 @@
+@import 'res/styles/colors';
+
+.sidebar {
+    background-color: $background-color-footer;
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.sidebar-item {
+    color: $navbar-links-color;
+    font-size: 150%;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    color: $hover-color;
+}
+
+#first-item {
+    margin-top: 100px;
+}
+
+#screenclicker {
+    position: fixed;
+    width: 40vw;
+    height: 100vw;
+    top: 0;
+    left: 60vw;
+    opacity: 0;
+}

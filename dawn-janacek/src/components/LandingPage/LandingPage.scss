@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import 'res/styles/colors';
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+
+.landing {
+    // background-color: $background-color-primary;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../res/img/landingpagewallpaper.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+
+    font-family: Lora;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+// .landing img {
+//     border-radius: 50%;
+//     border: 2px $image-border-color solid;
+//     width: 50vh;
+//     height: 50vh;
+//     margin-top: 70px;
+// }
+
+.mainheading {
+    color: $big-heading-color;
+    font-size: 6em;
+    margin: 0 auto;
+    font-weight: bold;
+    // margin-top: 30vh;
+    letter-spacing: 2px;
+    // align-self: center;
+}
+
+.secondheading {
+    color: $big-heading-color;
+    font-size: 2.4em;
+    margin: 0 auto;
+    margin-top: 3vh;
+    letter-spacing: 2px;
+}
+
+.links-holder {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.links-holder a {
+    font-size: 3em;
+    color: $link-color;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.links-holder a:hover {
+    filter: opacity(70%)
+}
+
+.scrollDown {
+    color: $big-heading-color;
+    font-size: 4em;
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: auto;
+    line-height: 75%;
+    position: absolute;
+    bottom: 10px;
+    animation: bounce 1s ease infinite;
+    text-decoration: none;
+}
+
+@keyframes bounce {
+    50% {
+      transform: translateY(-50%);
+    }
+  }
+
+.scrollDown:hover {
+    color: $hover-color;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+
+    .landing {
+        background-attachment:scroll;
+    }
+
+    .mainheading {
+        width: 80%;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .secondheading {
+        font-size: 2em;
+        width: 90%;
+        font-weight: normal;
+
+    }
+}

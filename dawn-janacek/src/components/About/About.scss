@@ -1,0 +1,30 @@
+@import 'res/styles/colors';
+
+.about {
+    background-color: $background-color-primary;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+#aboutMeImg {
+    border-radius: 50%;
+    width: 215px;
+    margin: 30px;
+    border: 1px $image-border-color solid;
+}
+
+
+.limited {
+    max-width: 700px;
+}
+
+@media (max-width: 700px) {
+    // .text {
+    //     width: 85%;
+    // }
+}
