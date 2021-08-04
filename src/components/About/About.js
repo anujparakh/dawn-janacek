@@ -6,11 +6,18 @@ import * as TextConstants from '../../res/constants/text'
 export default class About extends React.Component {
     render() {
         return <div className="about">
-            <div className="container text-center limited">
+            <div className="heading-box">
                 <p className="heading">About Me</p>
-                <img id="aboutMeImg" src={aboutPhoto}></img>
-                <p className="description text" dangerouslySetInnerHTML={{__html: TextConstants.ABOUT_TEXT}}></p>
+                <div className="container"><hr/></div>
+
             </div>
+            <div className="content-box">
+                <div className="container text-center limited">
+                    <img id="aboutMeImg" src={aboutPhoto}></img>
+                    <p className="description text" dangerouslySetInnerHTML={{__html: TextConstants.ABOUT_TEXT}}></p>
+                </div>
+            </div>
+
         </div>;
     }
 }

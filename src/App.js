@@ -3,6 +3,10 @@ import About from './components/About/About'
 import Header from './components/Header/Header'
 import LandingPage from './components/LandingPage/LandingPage'
 import Experience from './components/Experience/Experience'
+import Education from './components/Education/Education'
+import Licenses from './components/Licenses/Licenses'
+import Volunteering from './components/Volunteering/Volunteering'
+
 import Footer from './components/Footer/Footer'
 
 import './App.css';
@@ -40,6 +44,10 @@ class App extends React.Component {
                 <LandingPage isAtTop={!this.state.headerFixed} mobileWidth={mobileWidth}></LandingPage>
                 <About mobileWidth={mobileWidth}></About>
                 <Experience mobileWidth={mobileWidth}></Experience>
+                <Education mobileWidth={mobileWidth}></Education>
+                <Licenses mobileWidth={mobileWidth}></Licenses>
+                <Volunteering mobileWidth={mobileWidth}></Volunteering>
+
                 <Footer mobileWidth={mobileWidth}></Footer>
             </div>
         );

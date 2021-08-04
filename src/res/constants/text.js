@@ -56,6 +56,85 @@ export const EXPERIENCES = [
     }
 ]
 
+// -------------------------------
+// --------- EDUCATIONS ---------
+// -------------------------------
+
+
+// NOTE: Make sure to put these in order. Each Education has a position name, company name, duration, description, and picture.
+//       The picture should be imported above here (as shown in the example)
+export const EDUCATIONS = [
+    {
+        positionName: "Position 1",
+        companyName: "ABCD Company",
+        fromDate: "July 2021",
+        toDate: "August 2021",
+        picture: experiencePhoto1,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        positionName: "Position 2",
+        companyName: "ABCD Company",
+        fromDate: "July 2021",
+        toDate: "August 2021",
+        picture: experiencePhoto2,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/> <br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]
+
+// -------------------------------
+// --------- LICENSES ---------
+// -------------------------------
+
+
+// NOTE: Make sure to put these in order. Each Experience has a position name, company name, duration, description, and picture.
+//       The picture should be imported above here (as shown in the example)
+export const LICENSES = [
+    {
+        positionName: "Position 1",
+        companyName: "ABCD Company",
+        fromDate: "July 2021",
+        toDate: "August 2021",
+        picture: experiencePhoto1,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        positionName: "Position 2",
+        companyName: "ABCD Company",
+        fromDate: "July 2021",
+        toDate: "August 2021",
+        picture: experiencePhoto2,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/> <br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]
+
+// -------------------------------
+// --------- VOLUNTEERINGS ---------
+// -------------------------------
+
+
+// NOTE: Make sure to put these in order. Each Experience has a position name, company name, duration, description, and picture.
+//       The picture should be imported above here (as shown in the example)
+export const VOLUNTEERINGS = [
+    {
+        positionName: "Position 1",
+        companyName: "ABCD Company",
+        fromDate: "July 2021",
+        toDate: "August 2021",
+        picture: experiencePhoto1,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        positionName: "Position 2",
+        companyName: "ABCD Company",
+        fromDate: "July 2021",
+        toDate: "August 2021",
+        picture: experiencePhoto2,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/> <br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]
+
+
 // -------------------------
 // -------- CONTACT --------
 // -------------------------

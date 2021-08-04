@@ -1,10 +1,10 @@
 import React from 'react';
 import ExperienceView from '../ExperienceView/ExperienceView'
-import './Experience.scss'
+import './Education.scss'
 import * as TextConstants from '../../res/constants/text'
 
 
-export default class Experience extends React.Component {
+export default class Education extends React.Component {
 
     constructor(props) {
         super(props);
@@ -45,12 +45,10 @@ export default class Experience extends React.Component {
     }
 
     render() {
-        return <div className="experience">
+        return <div className="education">
             <div className="heading-box">
-                <p className={this.state.fullScreen ? "heading" : "smallscreen-heading"}>Experience</p>
+                <p className={this.state.fullScreen ? "heading" : "smallscreen-heading"}>Education</p>
                 <div className="container"><hr/></div>
-                {/* <p className={this.state.fullScreen ? "subheading" : "smallscreen-subheading"} id="experience-subheading"><i>Click <a href="/Resume.pdf" target="_blank">here</a> to see my resume.</i></p> */}
-
             </div>
             <div className="content-box">
             {this.getExperienceViews()}

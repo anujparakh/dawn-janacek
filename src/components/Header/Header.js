@@ -17,7 +17,7 @@ export default class Header extends React.Component {
         this.state = {
             fullSizeHeader: (window.innerWidth >= this.props.mobileWidth),
             sideMenuOpen: false
-         }
+        }
 
     }
 
@@ -45,7 +45,7 @@ export default class Header extends React.Component {
     createFullScreenHeader() {
         return <header className={this.state.isFixed ? 'navbar fixed' : 'navbar'}>
             {this.addLeftBar()}
-            <div className='navbar__title'>{ TextConstants.NAME }</div>
+            <div className='navbar__title'>{TextConstants.NAME}</div>
             <Link to="landing"
                 spy={true}
                 smooth={true}
@@ -59,13 +59,7 @@ export default class Header extends React.Component {
                 duration={500}
                 className='navbar__item'
             >About</Link>
-            {/* <Link to="projects"
-                spy={true}
-                smooth={true}
-                offset={-60}
-                duration={500}
-                className='navbar__item'
-            >Projects</Link> */}
+
             <Link to="experience"
                 spy={true}
                 smooth={true}
@@ -73,13 +67,31 @@ export default class Header extends React.Component {
                 duration={500}
                 className='navbar__item'
             >Experience</Link>
-            {/* <Link to="skills"
+
+            <Link to="education"
                 spy={true}
                 smooth={true}
                 offset={-60}
                 duration={500}
                 className='navbar__item'
-            >Skills</Link> */}
+            >Education</Link>
+
+            <Link to="licenses"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={500}
+                className='navbar__item'
+            >Licenses</Link>
+
+            <Link to="volunteering"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={500}
+                className='navbar__item'
+            >Volunteering</Link>
+
             <Link to="footer"
                 spy={true}
                 smooth={true}
@@ -94,13 +106,13 @@ export default class Header extends React.Component {
         return <header className={this.state.isFixed && !this.state.sideMenuOpen ? 'mobile-navbar' : 'mobile-navbar transparent'} >
             {this.addLeftBar()}
             {/* <button className="fa fa-bars" id="hamburger" onClick={() => this.setState({ sideMenuOpen: !this.state.sideMenuOpen})}></button> */}
-            <button className={this.state.sideMenuOpen ? "hamburger hamburger--spin is-active" : "hamburger hamburger--spin"} onClick={() => this.setState({ sideMenuOpen: !this.state.sideMenuOpen})} type="button">
-            <span className="hamburger-box">
-                <span className="hamburger-inner"></span>
-            </span>
+            <button className={this.state.sideMenuOpen ? "hamburger hamburger--spin is-active" : "hamburger hamburger--spin"} onClick={() => this.setState({ sideMenuOpen: !this.state.sideMenuOpen })} type="button">
+                <span className="hamburger-box">
+                    <span className="hamburger-inner"></span>
+                </span>
             </button>
-            <SideMenu isOpen={this.state.sideMenuOpen} onScreenClose={ () => this.setState({ sideMenuOpen: false}) } ></SideMenu>
-            {this.state.isFixed && !this.state.sideMenuOpen ? <div className='mobile-title'>{ TextConstants.NAME }</div> : null}
+            <SideMenu isOpen={this.state.sideMenuOpen} onScreenClose={() => this.setState({ sideMenuOpen: false })} ></SideMenu>
+            {this.state.isFixed && !this.state.sideMenuOpen ? <div className='mobile-title'>{TextConstants.NAME}</div> : null}
         </header>
     }
 

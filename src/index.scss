@@ -54,6 +54,32 @@ code
     }
 }
 
+.heading-box
+{
+    background-color: $background-color-primary;
+    border-bottom: 1px solid $lighter-black;
+}
+
+.heading-box .container
+{
+    width: 50%
+}
+
+.heading-box hr
+{
+    color: white;
+
+    margin-bottom: 40px;
+}
+
+.content-box
+{
+    padding-top: 30px;
+    background-color: $background-color-secondary;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $lighter-black;
+}
+
 .smallscreen-heading
 {
     color: $big-heading-color;
