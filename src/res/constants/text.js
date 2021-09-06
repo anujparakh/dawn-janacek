@@ -39,12 +39,15 @@ export const ABOUT_TEXT = "I get things done and never give up. I am driven and 
 //       The picture should be imported above here (as shown in the example)
 export const EXPERIENCES = [
     {
-        positionName: "Position 1",
-        companyName: "ABCD Company",
-        fromDate: "July 2021",
-        toDate: "August 2021",
-        picture: experiencePhoto1,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        positionName: "Technology Strategy Program Management Advisor",
+        companyName: "Dell Technologies",
+        fromDate: "January 2019",
+        toDate: "Present",
+        picture: DellIcon,
+        description:    "Manage the innovation pipeline for Technology Strategy group."
+                        "• Lead technical consultant on Confluence and Jira implementation, fully documented, and trained 50+ team members across multiple group"
+                        "• Developed timeline management process and coordinated process with team to guide incubations through hw/sw development life cycles"
+                        "• Honed existing SharePoint instance and usage to greatly increase reliability and ease of use for team"
     },
     {
         positionName: "Position 2",
