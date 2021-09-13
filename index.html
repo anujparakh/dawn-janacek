@@ -1,1 +1,503 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Dawn Janáček's personal website"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Dawn Janáček</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/><link href="/static/css/main.fb7ee8e7.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,a,i=r[0],c=r[1],l=r[2],s=0,p=[];s<i.length;s++)a=i[s],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&p.push(o[a][0]),o[a]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);p.length;)p.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var c=t[i];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"c20424ef"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/",a.oe=function(e){throw console.error(e),e};var i=this["webpackJsonpdawn-janacek"]=this["webpackJsonpdawn-janacek"]||[],c=i.push.bind(i);i.push=r,i=i.slice();for(var l=0;l<i.length;l++)r(i[l]);var f=c;t()}([])</script><script src="/static/js/2.8b487dbe.chunk.js"></script><script src="/static/js/main.d682e513.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dawn Janáček</title>
+        <!--favicon-->
+        <link rel="apple-touch-icon" href="assets/theme/images/apple-touch-icon.png">
+        <link rel="icon" href="assets/theme/images/favicon.ico">
+        <!--pace (page loader) style-->
+        <!-- <link href="assets/plugins/pace/pace.css" rel="stylesheet"> -->
+        <!-- <script src="assets/plugins/pace/pace.min.js"></script> -->
+        <!-- Bootstrap -->
+        <link href="assets/plugins/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Icons -->
+        <link href="assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- typed style -->
+        <link href="assets/plugins/typed/typed.css" rel="stylesheet">
+        <!-- popup style-->
+        <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+        <!-- simple Captcha-->
+        <link href="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- Themes styles-->
+        <link href="assets/theme/css/style.css" rel="stylesheet">
+        <!-- black skin-->
+        <link href="assets/theme/css/skin-black.css" rel="stylesheet">
+    </head>
+    <body data-spy="scroll" data-target=".menu-area" data-offset="200">
+        <!--wrapper page-->
+        <div class="wrapper">
+            <!-- Main Header -->
+            <header class="main-header" id="home">
+                <div class="content-table header-content-fixed ">
+                    <div class="v-content">
+                        <div class="container">
+                            <h1 class="text-uppercase color-dark name">Dawn Janáček</h1>
+                            <h4 class="text-uppercase color-dark font-alt job">
+                                <span id="typed" class="typed"></span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main navbar -->
+                <div class="menu-area">
+                    <div class="toogle-bars">
+                        <a href="#menu-collapse" data-toggle="collapse" class="collapsed">
+                            <i class="fa fa-bars ic-open"></i>
+                            <i class="fa fa-remove ic-close"></i>
+                            MENU
+                        </a>
+                    </div>
+                    <div class="menu-collapse collapse" id="menu-collapse">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <ul class="breadcrumb main-nav nav">
+                                        <!-- <li class="active">
+                                            <a href="https://www.youtube.com/watch?v=WUAd9wvJsQM&list=PL4zlB8WewWhX8ta4Rb5bL1d6_PtiomCSj" id="hireme-tab">
+                                                <i class="fa fa-film"></i>
+                                                Theatrical Reel
+                                            </a>
+                                        <li class="active">
+                                            <a href="https://www.youtube.com/watch?v=uTHdfDlXdrA&list=PL4zlB8WewWhX8ta4Rb5bL1d6_PtiomCSj" id="hireme-tab">
+                                                <i class="fa fa-desktop"></i>
+                                                Commercial Reel
+                                            </a> -->
+                                    </ul>
+                                </div>
+                                <div class="col-sm-5">
+                                    <ul class="breadcrumb main-nav nav">
+                                        <li class="active">
+                                            <a href="#home" class="link-inpage">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about" class="link-inpage">Bio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#resume" class="link-inpage">Resume</a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="#portfolio" class="link-inpage">Portfolio</a>
+                                        </li> -->
+                                        <li>
+                                            <a href="#contact" id="contact-tab" class="link-inpage">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <ul class="breadcrumb main-nav no-space">
+                                        <li>
+                                            <a href="https://www.facebook.com/malonethomas8">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.twitter.com/MaloneLThomas">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.instagram.com/maloneleandra">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Main navbar -->
+            </header>
+            <!-- End Main Header -->
+            <!-- ABOUT ME -->
+            <section id="about" class="block-section">
+                <div class="clearfix my-profile">
+                    <div class="my-pict">
+                        <div class="overfly">
+                            <div class="text-botttom">
+                                <h2 class="text-uppercase color-dark text-bold">Dawn Janáček</h2>
+                                <h5 class="text-uppercase color-dark font-alt ">SAG Eligible</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-desc">
+                        <div class="bg-secondary clearfix">
+                            <div class="inner-text">
+                                <h3 class=" color-dark no-margin-top">Bio</h3>
+                                <p>I get things done and never give up. I am driven and biased towards execution and delivery taking on
+                                    what needs to be done and owning it through to the end and beyond. I lead by example with tenacity
+                                    and an extreme ownership ethic.</p>
+                                <p class="no-margin">
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-dark clearfix">
+                            <div class="inner-text">
+                                <div class="local-scroll">
+                                    <p class="no-margin color-light ">
+                                        <strong class="fix-width-100">
+                                            <i class="fa fa-calendar margin-right-5"></i>
+                                            Birthdate
+                                        </strong>
+                                        : August 18<br/>
+                                        <strong class="fix-width-100">
+                                            <i class="fa fa-envelope margin-right-5"></i>
+                                            Email
+                                        </strong>
+                                        : dawnjanacek@gmail.com<br/>
+                                        <strong class="fix-width-100">
+                                            <i class="fa fa-globe margin-right-5"></i>
+                                            Website
+                                        </strong>
+                                        : www.dawnjanacek.com<br/>
+                                        <strong class="fix-width-100">
+                                            <i class="fa fa-film margin-right-5"></i>
+                                            Certifications
+                                        </strong>
+                                        : TODO<br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- END ABOUT ME -->
+            <!-- RESUME -->
+            <section id="resume" class="block-section">
+                <!--EMPLOYEMNT-->
+                <div class=" shape-bottom">
+                    <div class="bg-secondary block-title">
+                        <div class="container">
+                            <h2 class="text-uppercase color-dark text-bold no-margin">Resume</h2>
+                            <div class="title-icon">
+                                <i class="fa fa-video-camera"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-medium ">
+                    <div class="list-employment">
+                        <ul class="list-unstyled  clearfix">
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-film"></i>
+                                </div>
+                                <div class="number font-alt">01</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">FILM</h5>
+                                    <p>Novel Love &nbsp;&nbsp;&nbsp;&nbsp;Caroline Spencer &nbsp;&nbsp;&nbsp;&nbsp;Damian Romay</p>
+                                    <p>My Sweet Holiday &nbsp;&nbsp;&nbsp;&nbsp;Sadie &nbsp;&nbsp;&nbsp;&nbsp;Sandra L. Martin</p>
+                                    <p>Deadman &nbsp;&nbsp;&nbsp;&nbsp;Mrs. Riley &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Nash</p>
+                                    <p>Unsullied &nbsp;&nbsp;&nbsp;&nbsp;Emerson Wiley &nbsp;&nbsp;&nbsp;&nbsp;Simeon Rice</p>
+                                    <p>Bubba the Redneck Werewolf &nbsp;&nbsp;&nbsp;&nbsp;Bobbie Jo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brendan Rogers</p>
+                                    <p>Oscar Pistorius: Blade Runner Killer &nbsp;&nbsp;&nbsp;&nbsp;Red Carpet Interviewer &nbsp;&nbsp;&nbsp;&nbsp;Norman Stone</p>
+                                    <p>Most Beautiful Island &nbsp;&nbsp;&nbsp;&nbsp;Candy &nbsp;&nbsp;&nbsp;&nbsp;Anna Asensio</p>
+                                    <p>Winter Colony &nbsp;&nbsp;&nbsp;&nbsp;Veronica Hawthorn &nbsp;&nbsp;&nbsp;&nbsp;Barbara Zagrodnik</p>
+                                    <p>Here for the Night &nbsp;&nbsp;&nbsp;&nbsp;Jennifer Reed &nbsp;&nbsp;&nbsp;&nbsp;Taylor Ellis</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-desktop"></i>
+                                </div>
+                                <div class="number font-alt">02</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">TELEVISION</h5>
+                                    <p>Creepshow &nbsp;&nbsp;&nbsp;&nbsp;Beth &nbsp;&nbsp;&nbsp;&nbsp;Rusty Cundieff / Greg Nicotero</p>
+                                    <p>MacGyver &nbsp;&nbsp;&nbsp;&nbsp;Elise Deveroux &nbsp;&nbsp;&nbsp;&nbsp;Anne Renton</p>
+                                    <p>The Originals &nbsp;&nbsp;&nbsp;&nbsp;Colette &nbsp;&nbsp;&nbsp;&nbsp;Michael Grossman</p>
+                                    <p>Delilah &nbsp;&nbsp;&nbsp;&nbsp;Real Hyla Brook &nbsp;&nbsp;&nbsp;&nbsp;Geoffrey Wing Shotz</p>
+                                    <p>Dynasty &nbsp;&nbsp;&nbsp;&nbsp;Aubrey Watt &nbsp;&nbsp;&nbsp;&nbsp;Geoffrey Wing Shotz</p>
+                                    <p>Ozark &nbsp;&nbsp;&nbsp;&nbsp;Sherry &nbsp;&nbsp;&nbsp;&nbsp;Allk Sakharov</p>
+                                    <p>Cloak &Daggar &nbsp;&nbsp;&nbsp;&nbsp;Belinda &nbsp;&nbsp;&nbsp;&nbsp;Wayne Yip</p>
+                                    <p>Sistas &nbsp;&nbsp;&nbsp;&nbsp;Lindsay &nbsp;&nbsp;&nbsp;&nbsp;Tyler Perry</p>
+                                    <p>Still the King &nbsp;&nbsp;&nbsp;&nbsp;Actress Charlotte &nbsp;&nbsp;&nbsp;&nbsp;Lev L. Spiro</p>
+                                    <p>Your Pretty Face Is Going to Hell &nbsp;&nbsp;&nbsp;&nbsp;Hester &nbsp;&nbsp;&nbsp;&nbsp;Dave Willis</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-bank"></i>
+                                </div>
+                                <div class="number font-alt">03</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">THEATRE</h5>
+                                    <p>The Worst Argentinian &nbsp;&nbsp;&nbsp;&nbsp;Angela &nbsp;&nbsp;&nbsp;&nbsp;Robert Mello Studio Atlanta</p>
+                                    <p>Dear Brutus &nbsp;&nbsp;&nbsp;&nbsp;Lady Caroline Laney &nbsp;&nbsp;&nbsp;&nbsp;Roebuck Theatre NYC</p>
+                                    <p>A Sketch of New York &nbsp;&nbsp;&nbsp;&nbsp;Actor &nbsp;&nbsp;&nbsp;&nbsp;Producer's Club NYC</p>
+                                    <p>The Kentucky Tragedy &nbsp;&nbsp;&nbsp;&nbsp;Eliza Sharp &nbsp;&nbsp;&nbsp;&nbsp;Treehouse Theatre NYC</p>
+                                    <p>Grinchmas &nbsp;&nbsp;&nbsp;&nbsp;Noel &nbsp;&nbsp;&nbsp;&nbsp;Universal Studios Florida</p>
+                                    <p>The American Princess &nbsp;&nbsp;&nbsp;&nbsp;Lead Singer / Actor / Dancer &nbsp;&nbsp;&nbsp;&nbsp;Arabian Nights Theater Orlando</p>
+                                    <p>Mel's Dinettes &nbsp;&nbsp;&nbsp;&nbsp;Cindy &nbsp;&nbsp;&nbsp;&nbsp;Universal Studios Singapore</p>
+                                    <p>The Mummy &nbsp;&nbsp;&nbsp;&nbsp;Evelyn O'Connell &nbsp;&nbsp;&nbsp;&nbsp;Universal Studios Singapore</p>
+                                    <p>Terminator 2:3D &nbsp;&nbsp;&nbsp;&nbsp;Kimberley &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Universal Studios Florida</p>
+                                    <p>The Pirate's of Penzance &nbsp;&nbsp;&nbsp;&nbsp;Kate &nbsp;&nbsp;&nbsp;&nbsp;Alhambra / Jax-Times Union</p>
+                                    <p>Chess &nbsp;&nbsp;&nbsp;&nbsp;Svetlana &nbsp;&nbsp;&nbsp;&nbsp;J.U./Florida Theater</p>
+                                    <p>Picnic &nbsp;&nbsp;&nbsp;&nbsp;Madge &nbsp;&nbsp;&nbsp;&nbsp;Orange Park Theater FL</p>
+                                    <p>Oklahoma!&nbsp;&nbsp;&nbsp;&nbsp;Laurey William &nbsp;&nbsp;&nbsp;&nbsp;Lake City Theater FL</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--END EMPLOYEMNT-->
+                <!--EDUCATION-->
+                <div class=" shape-bottom">
+                    <div class="bg-secondary block-title">
+                        <div class="container">
+                            <h2 class="text-uppercase color-dark text-bold no-margin">Education</h2>
+                            <div class="title-icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-medium">
+                    <div class="list-education">
+                        <ul class="list-unstyled  clearfix">
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">01</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">Jacksonville University</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>Graduated magna cum laude with a BFA in Music Theater.</p>
+                                    <p class="font-alt color-dark"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">02</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">William Esper Studio</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>Summer intensive with Bill Esper</p>
+                                    <p class="font-alt color-dark "></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">03</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">The Barrow Group</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>Shakespeare - Seth Barrish</p>
+                                    <p class="font-alt color-dark "></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">04</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">Drama Inc</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>On-Camera Auditions - Dustin Lewis</p>
+                                    <p class="font-alt color-dark "></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">05</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">Art Sake Studio</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>Core Film Acting - Yvonne Suhor</p>
+                                    <p>Scene Study - Yvonne Suhor</p>
+                                    <p>Meisner Activities - Christy Poggi</p>
+                                    <p>Audition Workout - Yvonne Suhor</p>
+                                    <p>Advanced Intensive - Yvonne Suhor</p>
+                                    <p class="font-alt color-dark"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">06</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">Anthony Meindl</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>Acting Intensive</p>
+                                    <p class="font-alt color-dark"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">07</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">LA Acting Coach Shari Shaw</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>On Camera Drama &Comedy Intense Workshop</p>
+                                    <p class="font-alt color-dark"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">08</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">Tim Phillips</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>On-Camera</p>
+                                    <p class="font-alt color-dark"></p>
+                                </div>
+                            <li>
+                                <div class="ic">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="number font-alt">09</div>
+                                <div class="desc">
+                                    <h5 class="text-uppercase color-dark text-bold">Voice Training</h5>
+                                    <p class="font-alt color-dark"></p>
+                                    <p>Amanda Colliver - Singapore</p>
+                                    <p>Alexis Kramer - Orlando</p>
+                                    <p class="font-alt color-dark"></p>
+                                </div>
+                            </li>
+</li></ul></div></div>
+<!--END EDUCATION-->
+<!--PORTFOLIO-->
+<!--END PORTFOLIO-->
+<!--CONTACT-->
+<section id="contact" class="block-section">
+    <!--CONTACT TITLE-->
+    <div class=" shape-bottom">
+        <div class="bg-secondary block-title">
+            <div class="container">
+                <h2 class="text-uppercase color-dark text-bold no-margin">Contact</h2>
+                <div class="title-icon">
+                    <i class="fa fa-send"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END CONTACT TITLE-->
+    <center>
+        <p>
+            <li class="fa fa-envelope margin-right-5"></li>
+            <strong>
+                <a href="mailto:dawnjanacek@gmail.com" class="color-dark text-bold">
+            </strong>
+            dawnjanacek@gmail.com
+</a></p></center>
+<center>
+    <p>
+        <li class="fa fa-file margin-right-5"></li>
+        <strong>
+            <a href="http://resumes.actorsaccess.com/malonethomas" class=" color-dark text-bold">
+        </strong>
+        Actors Access Profile
+</a></p></center></section>
+<!--END CONTACT-->
+<!--FOOTER-->
+<footer class="main-footer">
+    <div class="container">
+        <div class="folow-me">Follow Me On
+          </div>
+        <ul class="list-inline social-links text-center">
+            <li>
+                <a href="https://www.facebook.com/malonethomas8" data-toggle="tooltip" data-placement="top" title="Facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.instagram.com/maloneleandra" data-toggle="tooltip" data-placement="top" title="Instagram">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.twitter.com/MaloneLThomas" data-toggle="tooltip" data-placement="top" title="Twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/MaloneLT" data-toggle="tooltip" data-placement="top" title="Youtube">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.imdb.me/malonethomas" data-toggle="tooltip" data-placement="top" title="IMDB">
+                    <i class="fa fa-film"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="text-center no-margin">Dawn Janáček - All Rights Reserved &COPY;2020
+          </p>
+        <a href="#home" class="back-to-top">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+    </div>
+</footer>
+<!--END FOOTER-->
+</div>
+<!--End wrapper page-->
+<!-- generate captcha -->
+<div id="mycaptcha-wrap" class="hidden mycaptcha1">
+    <div id="mycaptcha" class="mycaptcha1"></div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/plugins/jquery.js"></script>
+<script src="assets/plugins/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+<!-- maps js -->
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<script src="assets/plugins/jquery.ui.map.js"></script>
+<!-- advanced easing options -->
+<script src="assets/plugins/jquery.easing-1.3.pack.js"></script>
+<!-- parallax bg js -->
+<script src="assets/plugins/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox js -->
+<script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- typed animation-->
+<script src="assets/plugins/typed/typed.js"></script>
+<!-- easy chart-->
+<script src="assets/plugins/easypiechart/jquery.easypiechart.min.js"></script>
+<!-- simple Captcha -->
+<script src="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.js"></script>
+<!-- simple Ajax Uploader -->
+<script src="assets/plugins/Simple-Ajax-Uploader/SimpleAjaxUploader.min.js"></script>
+<!-- validate jquery-->
+<script src="assets/plugins/validator/jquery.validate.min.js"></script>
+<!--=====================================================-->
+<!--configuration template-->
+<script src="assets/theme/js/theme.js"></script>
+</body></html>
+<script type="text/javascript">
+    (function(d, w) {
+        var x = d.getElementsByTagName('SCRIPT')[0];
+        var f = function() {
+            var _id = 'lexity-pixel';
+            var _s = d.createElement('script');
+            _s.id = _id;
+            _s.type = 'text/javascript';
+            _s.async = true;
+            _s.src = "//np.lexity.com/embed/YW/8beb0fc75633683706922aff8d2fe243?id=12da6ac3b321";
+            if (!document.getElementById(_id)) {
+                x.parentNode.insertBefore(_s, x);
+            }
+        };
+        w.attachEvent ? w.attachEvent('onload', f) : w.addEventListener('load', f, false);
+    }(document, window));
+</script>
