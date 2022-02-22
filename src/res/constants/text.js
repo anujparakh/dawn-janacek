@@ -14,10 +14,10 @@ export const NAME = "Dawn Janáček"
 // --------------------------------
 export const MAIN_HEADING = "Dawn Janáček"
 export const SECONDARY_HEADINGS = [
-    "This is typed first.",
-    "Then this is typed",
-    "this is typed third.",
-    "and finally this"
+    "Information Technology",
+    "Automative Racing",
+    "Photography",
+//    "and finally this"
 ]
 
 
