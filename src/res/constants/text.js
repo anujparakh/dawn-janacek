@@ -15,7 +15,7 @@ export const NAME = "Dawn Janáček"
 export const MAIN_HEADING = "Dawn Janáček"
 export const SECONDARY_HEADINGS = [
     "Information Technology",
-    "Automative Racing",
+    "Automotive Racing",
     "Photography",
 //    "and finally this"
 ]
@@ -28,7 +28,7 @@ export const ABOUT_TEXT = "I get things done and never give up. I am driven and 
                           " – taking on what needs to be done and owning it through to the end and beyond. I lead by example" +
                           " with tenacity and an extreme ownership ethic." +
                           "<br/><br/>" +
-                          "Technically adept business professional in IT project management and Agile scrum mastery, technical writing, and IT development services. Highly experienced IT Project Manager with proven expertise in designing, developing, and delivering high quality, high impact global business solutions using structured project management tools and methodologies with both Microsoft and Apple products. An expert in collaborating with all stakeholders to produce needed results accurately, on time, and within budget. Strong Team Leader able to motivate others in high levels of productivity and efficiency."
+                         
 
 // -------------------------------
 // --------- EXPERIENCES ---------
@@ -38,6 +38,17 @@ export const ABOUT_TEXT = "I get things done and never give up. I am driven and 
 // NOTE: Make sure to put these in order. Each Experience has a position name, company name, duration, description, and picture.
 //       The picture should be imported above here (as shown in the example)
 export const EXPERIENCES = [
+    {
+        positionName: "Jira System Administator",
+        companyName: "Everi Games",
+        fromDate: "December 2021",
+        toDate: "Present",
+        picture: EveriIcon,
+        description:    "Responsible for supporting, maintaining, and extending the Atlassian suite."
+                        "• Configuration, maintenance, and administration of Atlassian products (Jira, Confluence, Tempo, ScriptRunner)"
+                        "• Work with development and design teams to identify procedural efficiencies, such as with Jira Workflows, custom fields"
+                        "• Prompt issue resolution with JIRA Projects and Confluence in coordination with partner teams and Atlassian premier support"
+    },
     {
         positionName: "Technology Strategy Program Management Advisor",
         companyName: "Dell Technologies",
@@ -50,12 +61,15 @@ export const EXPERIENCES = [
                         "• Honed existing SharePoint instance and usage to greatly increase reliability and ease of use for team"
     },
     {
-        positionName: "Position 2",
-        companyName: "ABCD Company",
-        fromDate: "July 2021",
-        toDate: "August 2021",
-        picture: experiencePhoto2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/> <br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        positionName: "Assistant General Manager",
+        companyName: "Petrol Lounge",
+        fromDate: "July 2019",
+        toDate: "March 2021",
+        picture: PLIcon,
+        description: "On-site management of facility, IT services, and postivie customer experience."
+                        "• Office management, document and inventory creation and management"
+                        "• Work with vendors to facilitate detailing, mechanical servicing, inspections"
+                        "• Assist customers in leaving and picking up their vehicles"
     }
 ]
 
