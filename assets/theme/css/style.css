@@ -1,30 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800');
-/*
-This files contents are outlined below.
-01. BODY
-02. TYPOGRAPGY
-03. HELPER
-04. COMPONENTS
-  - NAVBAR
-  - BUTTONS
-  - FORM
-  - PAGINATION
-  - TABS
-  - CAROUSEL
-05. MAIN-HEADER
-06. CONTENT
-  - ABOUT
-  - SERVICES
-  - RESUME
-  - SKILLS
-  - PORTFOLIO
-  - BLOG
-  - CONTACT
-  - TESTIMONIAL
-  - PARALLAX
-  - CAPTCHA
-07. MAIN-FOOTER
-*/
 
 /*============================
      01. BODY
@@ -1267,7 +1241,7 @@ textArea.form-flat {
 
 .main-header .header-content-fixed {
     height: 100%;
-    background: url(../images/main-header.png) no-repeat center;
+    background: url(../images/main-header.jpg) no-repeat center;
     background-size: cover;
     background-attachment: scale;
     text-align: center;
@@ -1512,7 +1486,7 @@ textArea.form-flat {
 .list-education li .number {
     position: absolute;
     font-style: italic;
-    right: -128px;
+    right: -40%;
     left: inherit;
     padding-bottom: 10px;
     font-size: 70px;
@@ -1542,7 +1516,7 @@ textArea.form-flat {
 
 .list-employment li:nth-child(odd) .number,
 .list-education li:nth-child(odd) .number {
-    left: -128px;
+    left: -40%;
     right: inherit;
 }
 
