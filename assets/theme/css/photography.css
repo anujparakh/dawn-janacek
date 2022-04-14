@@ -1,0 +1,33 @@
+.gallery-wrapper {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 40px auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .gallery {
+        max-width: 700px;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .gallery {
+        max-width: 350px;
+        justify-content: space-around;
+    }
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
