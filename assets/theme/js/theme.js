@@ -183,7 +183,7 @@
         $("#typed").typed({
             strings: ["Information Technology", "Automotive", "Photography"],
             // typing speed
-            typeSpeed: 300,
+            typeSpeed: 400,
             // time before typing starts
             startDelay: 100,
             // backspacing speed
