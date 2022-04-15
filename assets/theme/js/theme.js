@@ -181,9 +181,9 @@
     //Typed Animation
     function initTyped() {
         $("#typed").typed({
-            strings: ["Technologist", "Automotive Enthusiast", "Photographer", "Volunteer", "Traveler"],
+            strings: ["Technologist", "Gearhead", "Photographer", "Volunteer", "Traveler"],
             // typing speed
-            typeSpeed: 150,
+            typeSpeed: 100,
             // time before typing starts
             startDelay: 100,
             // backspacing speed
