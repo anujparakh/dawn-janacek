@@ -183,13 +183,13 @@
         $("#typed").typed({
             strings: ["Technologist", "Gearhead", "Photographer", "Volunteer", "Traveler"],
             // typing speed
-            typeSpeed: 50,
+            typeSpeed: 35,
             // time before typing starts
-            startDelay: 50,
+            startDelay: 35,
             // backspacing speed
-            backSpeed: 50,
+            backSpeed: 35,
             // time before backspacing
-            backDelay: 500,
+            backDelay: 50,
             // loop
             loop: true,
             // false = infinite
