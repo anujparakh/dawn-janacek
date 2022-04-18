@@ -1,5 +1,5 @@
 // Change this to show a different number of images
-const NUM_PHOTOS = 5;
+const NUM_PHOTOS = 20;
 
 const SOURCE_START = "assets/theme/images/photography/photo-";
 function populatePhotos() {
