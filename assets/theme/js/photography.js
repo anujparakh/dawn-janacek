@@ -15,7 +15,7 @@ function populatePhotos() {
     for(var i = 1; i <= NUM_PHOTOS; ++i)
     {
         var img = document.createElement("img");
-        const src = SOURCE_START + i + ".jpeg"
+        const src = SOURCE_START + i + ".jpg"
         img.src = src
         img.onclick = (event) => {
             console.log("opening photo")
