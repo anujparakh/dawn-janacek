@@ -1,5 +1,5 @@
 // Change this to show a different number of images
-const NUM_PHOTOS = 36;
+const NUM_PHOTOS = 45;
 
 const SOURCE_START = "assets/theme/images/photography/photo-";
 const backdropDiv = document.getElementById("backdrop-photo");
